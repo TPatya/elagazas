@@ -57,6 +57,27 @@ public class Elagazas {
         else{
             System.out.printf("A %d nagyobb , mint %d", a,b);
         }
+        
+        
+        
+        
+        double szazalek =  60.0;
+        
+        if(szazalek >= 80){
+            System.out.println("Jeles");
+        }
+        else if(szazalek >= 60 && szazalek < 80){
+            System.out.println("Jó");
+        }
+        else if(szazalek >= 50 && szazalek < 60){
+            System.out.println("Közepes");
+        }
+        else if(szazalek >= 40 && szazalek < 50){
+            System.out.println("Elégséges");
+        }
+        else{
+            System.out.println("Elégtelen");
+        }
     }
     
 }
